@@ -1,0 +1,3 @@
+# Assembly Overflow Bug
+
+This repository demonstrates a common error in assembly programming: integer overflow during addition.  The `bug.asm` file contains code that adds two registers, but fails to handle the possibility of an overflow. The `bugSolution.asm` provides a corrected version that accounts for potential overflow conditions.  This example highlights the importance of careful error handling and understanding the limitations of integer data types in assembly language.
